@@ -34,11 +34,11 @@ public class LoVivido {
         e = JOptionPane.showInputDialog("Escriba su edad: ");
 
         a = Integer.parseInt(e);
-
+        //Muevo todas las operaciones y los mensajes que muestran las diferentes opciones a sus respectivos metodos 
         CalcM(a, n);
         int aux = CalcD(a, n);
         CalcH(aux, n);
-
+        //Hice un format para que todo quede mas ordenado
         System.exit(0);
 
     }
